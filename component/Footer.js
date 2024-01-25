@@ -36,9 +36,9 @@ function Footer() {
                  <li> <Link href='/shilp' className='Menu_footer'> Invest For Impact</Link></li>
               <li> <Link href='/contact-us' className='Menu_footer'> Contact Us</Link></li>
             </ul>
-            <Row>
-              <Col className='text-start' lg={2}><Link href="#"><FaTwitterSquare size={30} className='f-icons'/></Link></Col>
-              <Col className='text-start' lg={2}><Link href="#"><FaLinkedin size={30} className='f-icons'/></Link></Col>
+            <Row className='d-flex flex-row'>
+              <Col className='text-start' lg={2} sm={2} xs={2} md={2}><Link href="#"><FaTwitterSquare size={30} className='f-icons'/></Link></Col>
+              <Col className='text-start' lg={2} sm={2} xs={2} md={2}><Link href="#"><FaLinkedin size={30} className='f-icons'/></Link></Col>
             </Row>
             </Col>
             <Col lg={3}>

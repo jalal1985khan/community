@@ -20,10 +20,10 @@ function JoinUs() {
       </Container>
 <Container fluid className=''>
     <Row>
-        <Col lg={6} className='Partner-With-Us order-sm-0 order-xs-0 order-md-0 order-lg-0' >
+        <Col lg={6} className='Partner-With-Us' >
 
         </Col>
-        <Col lg={6} className='Partner-With-Us-1 order-sm-0 order-xs-0 order-md-0 order-lg-0'>
+        <Col lg={6} className='Partner-With-Us-1 '>
             <h2 className='t-partner'>
             Partner With Us
             </h2>
@@ -37,21 +37,21 @@ function JoinUs() {
     
     <Row>
         
-        <Col lg={6} className='volunteer-1 order-sm-4 order-xs-4 order-md-4 order-lg-4'>
+        <Col lg={6} className='volunteer-1 order-1 order-lg-0'>
             <h2 className='t-volunteer'>
             Volunteer With Us
             </h2>
             <p className='p-volunteer pt-4'>We invite stellar, driven and passionate volunteers who’d like to contribute to <br/>resilience building within vulnerable communities.</p>
             <p className='mail-us'>WRITE TO US AT <a href='mailto:COMMUNITYACTIONCOLLAB@CATALYSTS.ORG'>COMMUNITYACTIONCOLLAB@CATALYSTS.ORG</a></p>
         </Col>
-        <Col lg={6} className='volunteer order-sm-3 order-xs-3 order-md-3 order-lg-4'>
+        <Col lg={6} className='volunteer order-0'>
            
         </Col>
     </Row>
     <Row>
-        <Col lg={6} className='Invest order-sm-5 order-xs-5 order-md-5 order-lg-5'> 
+        <Col lg={6} className='Invest '> 
         </Col>
-        <Col lg={6} className='Invest-1 order-sm-5 order-xs-5 order-md-5 order-lg-5'>
+        <Col lg={6} className='Invest-1 '>
             <h2 className='t-partner'>
             Invest In Community Action Collab
             </h2>
