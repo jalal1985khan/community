@@ -14,7 +14,7 @@ style={{
         <Container style={{height:'500'}}>
         <Row className='' fluid>
           <Col lg={6} className='d-flex align-items-center'>
-            <p className='p-about'>Today, we understand that the impact of COVID-19 is long-term and will continue to affect vulnerable communities. Pandemics are here to stay, and there is an increasing likelihood that we will experience more pandemics in our lifetime. Yet, while for the world, the pandemic was a time of fear, hopelessness and uncertainty, for vulnerable people, the experience of these feelings is a constant. They live through shocks and disasters daily.</p>
+            <p className='p-about fs-5 fw-light'>Today, we understand that the impact of COVID-19 is long-term and will continue to affect vulnerable communities. Pandemics are here to stay, and there is an increasing likelihood that we will experience more pandemics in our lifetime. Yet, while for the world, the pandemic was a time of fear, hopelessness and uncertainty, for vulnerable people, the experience of these feelings is a constant. They live through shocks and disasters daily.</p>
           </Col>
           </Row>
           </Container>

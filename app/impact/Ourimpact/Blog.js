@@ -85,15 +85,15 @@ const Blog = () => {
       <Row>
       <Col lg={3} >
             <Container className="sticky-top">
-            <h3 className="title-s">IN THE SECTION</h3>
+            <h3 className="title-s fs-5">IN THE SECTION</h3>
             <Tab.Container id="vertical-tabs-example" defaultActiveKey="home">
       <Nav variant="fs-4" className="flex-column tab-about">
         <Nav.Item >
-          <Nav.Link   className="t-tab"  href="/impact">All Communities</Nav.Link>
+          <Nav.Link   className="t-tab fs-6 fw-light"  href="/impact">All Communities</Nav.Link>
         </Nav.Item>
                <Nav.Item>
                {communities.map((community, index) => (
-                 <Link href="" className="t-tab nav-link" key={index}
+                 <Link href="" className="t-tab nav-link fs-6 fw-light" key={index}
                  onClick={() => handleTabClick(community.value)}
                  >{community.name}</Link>
                  ))}

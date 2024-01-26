@@ -72,9 +72,14 @@ function HeroBanner() {
       <Container>
         <Row>
           <Col lg={4} className="d-flex flex-column justify-content-center">
-            <img src="/images/cac_Logo.svg" width={214} height={50} className='img-fluid' />
-            <p className="fs-5 mt-3 mb-4">…is a dynamic humanitarian emergency platform that builds the resilience of Vulnerable People and their institutions, in their everyday emergencies, and is ready for future humanitarian crises.</p>
-            <Link href="/about" className='b-banner'> FIND OUT MORE</Link>
+            <Row className="d-flex flex-column">
+              <Col><img src="/images/cac_Logo.svg" width={214} height={50} className='img-fluid' /></Col>
+              <Col><p className="fs-5 mt-3 mb-4">…is a dynamic humanitarian emergency platform that builds the resilience of Vulnerable People and their institutions, in their everyday emergencies, and is ready for future humanitarian crises.</p></Col>
+              <Col><Link href="/about" className='b-banner mb-5'> FIND OUT MORE</Link></Col>
+            </Row>
+            
+            
+            
           </Col>
           <Col lg={8} className="spinner">
             <div className="slider round-slider wrapper" ref={sliderRef}>
@@ -132,9 +137,6 @@ function HeroBanner() {
                   </div>
                   <div>
           <img className='herobanner' src="/images/home-5.jpg"/>
-                  </div>
-                  <div>
-          <img className='herobanner' src="/images/home-4.jpg"/>
                   </div>
                   <div>
           <img className='herobanner' src="/images/home-3.jpg"/>

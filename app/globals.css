@@ -292,7 +292,6 @@ h1.post_title {
 .p-action{
   color: #000;
     font-family: lato,Sans-serif;
-    font-size: 20px;
     line-height: 32px;
 }
 
@@ -478,14 +477,12 @@ p.p-text {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
 }
 .Partner-With-Us-1{
   background-color: #1c7c9c;;
   background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
     padding: 80px;
     padding-left: 30px!important;
   
@@ -493,17 +490,14 @@ p.p-text {
 h2.t-partner {
   color: #fff!important;
   font-family: lato,Sans-serif!important;
-  font-size: 44px!important;
-  font-weight: 300!important;
   line-height: 41px!important;
   padding-bottom: 20px!important;
 }
 p.p-partner {
   color: #fff!important;
   font-family: lato,Sans-serif!important;
-  font-size: 20px!important;
   line-height: 32px!important;
-  font-weight: 300!important;
+
 }
 /* styles/banner.css */
 .banner-container {
@@ -535,28 +529,25 @@ p.p-partner {
   height: 300px;
 }
 
-.btn-partner{
-   font-family: lato,Sans-serif!important;
-    font-size: 16px !important;
-    font-weight: 700 !important;
+.btn-partner{ 
+
     line-height: 16px!important;
     letter-spacing: .8px!important;
     fill: #fff!important;
     color: #fff!important;
     background-color: #ffffff00!important;
     border-style: solid!important;
-    border-width: 1px!important;
+    border-width: 2px!important;
     border-color: #fff!important;
     border-radius: 10px 10px 10px 10px!important;
     padding: 14px 30px!important;
+    min-width:200px;
 }
 .volunteer{
     background-image: url(/images/Highcompressed_1626601023.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    width: 50%;
 
 }
 .volunteer-1{
@@ -566,7 +557,6 @@ p.p-partner {
     background-size: cover;
     padding: 80px;
     padding-left: 30px!important;
-    width: 50%;
 }
 .p-btn{
   background-color: #fdd800 !important;
@@ -586,8 +576,6 @@ height:290px;
 .t-volunteer{
   color: #000000;
   font-family: 'lato',Sans-serif;
-  font-size: 44px;
-  font-weight: 300;
   line-height: 41px;
 
 
@@ -596,15 +584,12 @@ height:290px;
 .p-volunteer{
   color: #000;
     font-family: lato,Sans-serif!important;
-    font-size: 20px;
     line-height: 32px;
 }
 
 .mail-us{
   color: #000;
   font-family: lato,Sans-serif;
-  font-size: 16px;
-  font-weight: 700;
   line-height: 41px;
   letter-spacing: .8px;
 }
@@ -613,8 +598,6 @@ height:290px;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
-    width: 50%;
 }
 .Invest-1{
   background-color: #383838;
@@ -623,7 +606,6 @@ height:290px;
     background-size: cover;
     padding: 80px;
     padding-left: 30px!important;
-    width: 50%;
 
 }
 
@@ -635,7 +617,6 @@ a.Menu_footer {
   padding-right: 0;
   padding-top: 4px;
   padding-bottom: 4px;
-  font-size: 16px;
   font-family: 'Lato';
 }
 p.p_copy {
@@ -675,16 +656,12 @@ ul.footer-1 {
 h3.t-footer-1 {
   color: #fff500;
   font-family: lato,Sans-serif;
-  font-size: 16px;
-  font-weight: 700;
   line-height: 41px;
   text-align: left;
 }
  
 .Resource_shilp{
      background-color: black;
-    padding: 60px 30px 20px 0px ;
-    color: white;
 }
 .t_resource{
     color: #FFFFFF;
@@ -705,7 +682,6 @@ h3.t-footer-1 {
 
 p.p-footer-3 {
   font-family: lato,Sans-serif;
-  font-size: 14px;
   line-height: 22px;
   color: #fff;
   text-align: left;
@@ -727,7 +703,6 @@ p.p-about {
   text-align: left;
   color: #fff;
   font-family: lato,Sans-serif;
-  font-size: 20px!important;
   line-height: 28px;
   width: var(--container-widget-width,450px );
   max-width: 450px;
@@ -771,8 +746,6 @@ font-family: 'Lato';
 .t-vision {
   color: #1c7c9c;
   font-family: lato,Sans-serif;
-  font-size: 26px;
-  font-weight: 700;
   line-height: 41px;
   padding-top: 10px;
 }
@@ -787,13 +760,11 @@ font-family: 'Lato';
 p.p-card {
   color: #1c7c9c;
   font-family: lato,Sans-serif;
-  font-size: 20px;
   line-height: 28px;
 }
 p.p-vision {
   color: #000;
   font-family: lato,Sans-serif;
-  font-size: 18px!important;
   line-height: 30px!important;
 }
 
@@ -817,14 +788,12 @@ p.p-vision {
 .n-team {
   color: #1c7c9c!important;
   font-family: lato,Sans-serif!important;
-  font-size: 24px!important;
   font-weight: 600!important;
   line-height: 28px!important;
 }
 p.p-role {
   color: #000;
   font-family: lato,Sans-serif!important;
-  font-size: 14px;
   font-weight: 500!important;
   line-height: 24px!important;
 }
@@ -923,13 +892,10 @@ span.right-arrow {
 h3.t-economic {
   color: #FFFFFF;
   font-family: "Lato", Sans-serif!important;
-  font-size: 26px;
-  font-weight: 600;
 }
 p.p-economic {
   color: #DBEDE8;
   font-family: "Lato", Sans-serif!important;
-  font-size: 18px;
   line-height: 22px!important;
 }
 
@@ -942,8 +908,6 @@ p.p-economic {
 p.card-text.p-card-economic {
   color: #191919!important;
   font-family: "Lato", Sans-serif!important;
-  font-size: 18px!important;
-  font-weight: normal!important;
 }
 .cdar {
   background: #e0e0e0;
@@ -988,39 +952,39 @@ h1.t-shilp {
   font-weight: bold;
   line-height: 41px;
 }
+.banner-shilp{
+ border:2px solid #fff;
+ text-decoration: none;
+ color:white;
+ width:110px;
+ padding-left:12px;
+ padding-top:6px; 
+ padding-bottom:6px;
+ border-radius: 6px; 
+}
 .b-shilp {
-  font-family: "Lato", Sans-serif;
-  font-size: 16px;
-  font-weight: bold;
   line-height: 16px;
   letter-spacing: 0.8px;
   fill: #FFFFFF;
   color: #FFFFFF;
   background-color: #FFFFFF00;
   border-style: solid;
-  border-width: 1px 1px 1px 1px;
+  border-width: 2px;
   border-color: #FFFFFF;
-  border-radius: 10px 10px 10px 10px;
-  width: 150px;
+  border-radius: 10px;
   text-decoration: none;
-  padding-top: 13px;
-  padding-bottom: 13px;
-  padding-left: 22px;
+  padding: 15px;
 }
 
 p.p-cardshilp {
   color: #1C7C9C;
   font-family: "Lato", Sans-serif;
-  font-size: 16px;
   line-height: 28px;
 }
 .card.shilp-card {
   min-height: 270px;
 }
-button.b-shilp a {
-  color: #fff;
-  text-decoration: none;
-}
+
 
   .outcomebox {
     background-color: #FEF2A8;
@@ -1030,7 +994,6 @@ button.b-shilp a {
 .p_outcomes {
   color: #000000!important;
   font-family: "Lato", Sans-serif;
-  font-size: 16px!important;
   line-height: 28px!important;
 }
 
@@ -1074,7 +1037,6 @@ background-color: #1c7c9c;;
 background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
   padding: 80px;
   padding-left: 30px!important;
   width: 50%;
@@ -1092,20 +1054,19 @@ ul.partnew {
 .list-partner {
   color: #F6F6F6;
   font-family: "Lato", Sans-serif;
-  font-size: 20px;
   line-height: 32px;
-  font-weight: 400;
+
 }
 .contacform {
   background-color: #1C7C9C;
-  height: 300px;
+  
 }
-.formdata-1.container {
+.formdata-1{
   background-color: #E8F2F5;
   padding: 40px;
-  margin-top: -115px;
   border-radius: 20px;
   margin-bottom: 30px;
+margin-top:-21px;
 }
 .shilp_formdata{
   background-color: #E8F2F5;
@@ -1116,14 +1077,11 @@ ul.partnew {
 
 }
 
-button.btn-form {
-  background-color: #1C7C9C;
+.btn-form {
+  background-color: #1C7C9C !important;
   color: #ffffff;
-  padding-right: 80px;
-  padding-left: 80px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  font-size: 25px;
+
+
 }
 
 label.label-style {
@@ -1154,7 +1112,6 @@ label.label-style {
 .p-card-shlip{
   color: #000000;
   font-family: "Lato", Sans-serif!important;
-  font-size: 14px;
   line-height: 28px;
 
 }
@@ -1169,7 +1126,9 @@ label.label-style {
 
 
 @media  (max-width: 600px){
-
+  .spinner {
+    margin-top: 67px !important;
+}
   .gradient{
     background: linear-gradient(90deg, rgba(54, 144, 192, 0) 0%, rgba(54, 144, 192, 0) 50%, rgba(54, 144, 192, 0) 50%);
   }
@@ -1465,20 +1424,25 @@ h1.post_title {
 }
 
 @media (max-width: 600px){
-
+ .herobanner{
+  background: center center/cover no-repeat;
+    height: 150px!important;
+    width: 150px!important;
+    border-radius: 50%!important;
+ } 
   .gradient{
     background: linear-gradient(90deg, rgba(54, 144, 192, 0) 0%, rgba(54, 144, 192, 0) 50%, rgba(54, 144, 192, 0) 50%);
   }
 
-  .main-banner {
-    top: -370px;
-    left: 30%;
+.main-banner {
+    top: -253px;
+    left: 27%;
 }
+
 .wrapper {
   height: 400px !important;
   transition: all 0.5s ease 0s;
-  transform-origin: center;
-  
+  transform-origin: center; 
 }
 }
 

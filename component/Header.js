@@ -23,28 +23,28 @@ const Header = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className='d-none' />
           <Navbar.Collapse id="basic-navbar-nav  " className='cac_nav_item'>
             <Nav className="ms-auto ">
-              <Link href="/" className="me-4 nav-link">Home</Link>
-              <Link href="/about-us" className="me-4 nav-link">About Us</Link>
-              <Link href="/action" className="me-4 nav-link">Our Action</Link>
-              <Link href="/impact" className="me-4 nav-link">Our Impact</Link>
+              <Link href="/" className="me-4 nav-link fs-6">Home</Link>
+              <Link href="/about-us" className="me-4 nav-link fs-6">About Us</Link>
+              <Link href="/action" className="me-4 nav-link fs-6">Our Action</Link>
+              <Link href="/impact" className="me-4 nav-link fs-6">Our Impact</Link>
               
               
               <NavDropdown title="Our Initiatives" id="basic-nav-dropdown" className="me-4">
-                <Link className='dropdown-item' href="/shilp">SHILP</Link>
+                <Link className='dropdown-item fs-6' href="/shilp">SHILP</Link>
                 <NavDropdown.Divider />
-                <Link className='dropdown-item' href="/economic-resilience">Economic resilience</Link>
+                <Link className='dropdown-item fs-6' href="/economic-resilience">Economic resilience</Link>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="https://covidactioncollab.org/vaxnow/" target='_blank'>VaxNow</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item href="https://www.precisionhealth.in/" target='_blank'>Precision Health</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Resource Hub" id="basic-nav-dropdown" className="me-4">
-              <Link className='dropdown-item' href="#action/1">Knowledgebase</Link>
+              <Link className='dropdown-item fs-6' href="#action/1">Knowledgebase</Link>
                 <NavDropdown.Divider />
-                <Link className='dropdown-item' href="#action/2">Media</Link>
+                <Link className='dropdown-item fs-6' href="#action/2">Media</Link>
               </NavDropdown>
-              <Link className='me-4 nav-link' href="/join-us">Join Us</Link>
-              <Link className='me-4 nav-link' href="/contact-us">Contact Us</Link>
+              <Link className='me-4 nav-link fs-6' href="/join-us">Join Us</Link>
+              <Link className='me-4 nav-link fs-6' href="/contact-us">Contact Us</Link>
               
             </Nav>
           </Navbar.Collapse>

@@ -9,8 +9,8 @@ function Economic() {
         <Row>
           <Col lg={6} className="Why_Economic_Resilience"></Col>
           <Col lg={6} className="Economic_Resilience">
-            <h3 className="t-economic">Why Economic Resilience?</h3>
-            <p className="p-economic">
+            <h3 className="t-economic fs-1 fw-light">Why Economic Resilience?</h3>
+            <p className="p-economic fs-5 fw-light">
               A critical component for building resilient communities is
               building their economic resilience. Community Action Collab’s
               (CAC) Economic Resilience Impact Canvas builds the resilience of
@@ -34,7 +34,7 @@ function Economic() {
                 alt="Card 2"
               />
               <div className="card-body">
-                <p className="card-text p-card-economic">
+                <p className="card-text p-card-economic fs-5 fw-light">
                   While economic resilience needs to be achieved at the family
                   level, there is a need to work within and beyond the family.
                   Together with the partners and advisors of the Impact Canvas,
@@ -52,7 +52,7 @@ function Economic() {
                 alt="Card 2"
               />
               <div className="card-body">
-                <p className="card-text p-card-economic">
+              <p className="card-text p-card-economic fs-5 fw-light">
                   Economic resilience is more than just facilitating services to
                   vulnerable populations; it is also about instilling hope and
                   aspirations, cultivating an opportunity mindset, gaining the

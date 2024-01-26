@@ -17,8 +17,8 @@ function Aboutshilp() {
             />
           </Col>
           <Col lg={9} className="pt-5">
-            <h2 className="t-vision">About SHILP</h2>
-            <p className="p-vision">
+            <h2 className="fw-1 fw-light">About SHILP</h2>
+            <p className="fs-5 fw-light">
               SHILP is an initiative by Community Action Collab, in partnership
               with the MacArthur Foundation, to build the resilience of the
               leaders of Community Organisations (COs) who work with vulnerable
@@ -38,7 +38,7 @@ function Aboutshilp() {
                       width="40px"
                       height="44px"
                     />
-                    <Card.Text className="p-cardshilp">
+                    <Card.Text className="p-cardshilp fs-6 mt-3">
                       Building hope and capacities among CO leaders and key
                       executives and helping to develop their business plans to
                       manage and tide through tough times effectively
@@ -55,7 +55,7 @@ function Aboutshilp() {
                       width="40px"
                       height="44px"
                     />
-                    <Card.Text className="p-cardshilp">
+                    <Card.Text className="p-cardshilp fs-6 mt-3">
                       Meeting the immediate critical financial needs of COs to
                       ensure their continuity in their journey towards
                       resilience
@@ -72,7 +72,7 @@ function Aboutshilp() {
                       width="40px"
                       height="44px"
                     />
-                    <Card.Text className="p-cardshilp">
+                    <Card.Text className="p-cardshilp fs-6 mt-3">
                       Enabling access of COs to a platform to network, learn and
                       leverage opportunities from peers, resource agencies,
                       policymakers, and investors and serve their members better

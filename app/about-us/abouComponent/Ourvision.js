@@ -28,17 +28,17 @@ function Ourvision() {
         <Row className="d-flex flex-coulm">
           <Col lg={3} >
             <Container className="sticky-top">
-            <h3 className="title-s">IN THE SECTION</h3>
+            <h3 className="title-s fs-5">IN THE SECTION</h3>
             <Tab.Container id="vertical-tabs-example" defaultActiveKey="home">
       <Nav variant="fs-4" className="flex-column tab-about">
         <Nav.Item >
-          <Nav.Link   className="t-tab" eventKey="home" href="#vistion">Our Mission</Nav.Link>
+          <Nav.Link   className="t-tab fs-6 fw-light" eventKey="home" href="#vistion">Our Mission</Nav.Link>
         </Nav.Item>
         <Nav.Item >
-          <Nav.Link className="t-tab" eventKey="profile" href="#partners">Our Partners</Nav.Link>
+          <Nav.Link className="t-tab fs-6 fw-light" eventKey="profile" href="#partners">Our Partners</Nav.Link>
         </Nav.Item>
         <Nav.Item >
-          <Nav.Link  className="t-tab" eventKey="contact" href="#governance">Governance</Nav.Link>
+          <Nav.Link  className="t-tab fs-6 fw-light" eventKey="contact" href="#governance">Governance</Nav.Link>
         </Nav.Item>
       </Nav>
     </Tab.Container>
@@ -46,14 +46,14 @@ function Ourvision() {
             </Container>
           </Col>
           <Col lg={9} sm={12} className="pt-5" id="vistion">
-            <h2 className="t-vision">Our Vision</h2>
-            <p className="p-vision">
+            <h2 className="t-vision fs-1 fw-light">Our Vision</h2>
+            <p className="p-vision fs-5 fw-light">
               A world that is resilient and invigorated. (Empowering the key
               vulnerable communities to survive and thrive during humanitarian
               crises)
             </p>
-            <h2 className="t-vision" id="vistion"> Our Mission </h2>
-            <p className="p-vision">
+            <h2 className="t-vision fs-1 fw-light" id="vistion"> Our Mission </h2>
+            <p className="p-vision fs-5 fw-light">
               The Collaborative is incubated by the Catalyst Group, a social
               impact platform with 26 years experience of working across 30
               countries in social and economic development, including
@@ -64,7 +64,7 @@ function Ourvision() {
     <div className="card card_missoin">
       <div className="card-body">
       <Card.Img  variant="top" src="/images/pie-chart.svg" width="40px" height="44px" />
-      <Card.Text className="p-card">
+      <Card.Text className="p-card fs-5">
                 Synergise resource access and allocate efforts, in an adaptive and urgent manner
                 </Card.Text>
       </div>
@@ -74,7 +74,7 @@ function Ourvision() {
     <div class="card card_missoin">
       <div class="card-body">
       <Card.Img variant="top" src="/images/Group-115.svg"  width="40px" height="44px"/>
-      <Card.Text className="p-card">
+      <Card.Text className="p-card fs-5">
                 Augment collaboration and connections, within the larger network, at multiple levels
                 </Card.Text>
       </div>
@@ -84,7 +84,7 @@ function Ourvision() {
     <div class="card card_missoin">
       <div class="card-body">
       <Card.Img variant="top" src="/images/speedometer.svg" width="40px" height="44px"/>
-      <Card.Text className="p-card">
+      <Card.Text className="p-card fs-5">
                 Accelerate transformative impact in keeping with the changing needs within vulnerable communities
                 </Card.Text>
       </div>
@@ -92,16 +92,16 @@ function Ourvision() {
   </div>
 </div>
             <Container className="pt-4" id="partners">
-            <h2 className="t-vision"> Our Partners </h2>
-            <p className="p-vision">We believe that resilient communities are better able to prepare, adapt and get stronger in response to internal and external pressures and stresses in a way that not only allows them to maintain essential functions and bounce back quickly but also goes further toward an improved environment, social and economic health and wellbeing.</p>
-            <p className="p-vision">This kind of resilience can only be built through constant human collaboration, where looking out for and after each other becomes a way of life.</p>
-            <p className="p-vision">Our network of partners ranges from Implementers (NGOs, CBOs, Government bodies and Private Sector Organisations); Providers (Human Resources, Finance and Technology) & Enablers (Policy, Academia and Industry Associations).</p>
+            <h2 className="t-vision fs-1 fw-light"> Our Partners </h2>
+            <p className="p-vision fs-5 fw-light">We believe that resilient communities are better able to prepare, adapt and get stronger in response to internal and external pressures and stresses in a way that not only allows them to maintain essential functions and bounce back quickly but also goes further toward an improved environment, social and economic health and wellbeing.</p>
+            <p className="p-vision fs-5 fw-light">This kind of resilience can only be built through constant human collaboration, where looking out for and after each other becomes a way of life.</p>
+            <p className="p-vision fs-5 fw-light">Our network of partners ranges from Implementers (NGOs, CBOs, Government bodies and Private Sector Organisations); Providers (Human Resources, Finance and Technology) & Enablers (Policy, Academia and Industry Associations).</p>
             </Container>
             <Container className="pt-4" id="governance">
-            <h2 className="t-vision"> Governance </h2>
-            <p className="p-vision">A Governing Council of eminent individuals with rich experience from diverse backgrounds and expertise guides and steers the efforts of the collaborative.</p>
-            <p className="p-vision">It meets quarterly to help in defining and evolving principles, policies, partnerships, programmes/actions, resourcing and reviewing for the Collaborative; and ensuring that key decision-makers in the government, private, civil society and communities are closely engaged with and their perspective is included for collective action.</p>
-            <p className="p-vision">Our Governing Council brings in a wealth of learning from the areas of health, livelihoods, disaster management, food supplies, bureaucracy, academia, technology and donors.</p>
+            <h2 className="t-vision fs-1 fw-light"> Governance </h2>
+            <p className="p-vision fs-5 fw-light">A Governing Council of eminent individuals with rich experience from diverse backgrounds and expertise guides and steers the efforts of the collaborative.</p>
+            <p className="p-vision fs-5 fw-light">It meets quarterly to help in defining and evolving principles, policies, partnerships, programmes/actions, resourcing and reviewing for the Collaborative; and ensuring that key decision-makers in the government, private, civil society and communities are closely engaged with and their perspective is included for collective action.</p>
+            <p className="p-vision fs-5 fw-light">Our Governing Council brings in a wealth of learning from the areas of health, livelihoods, disaster management, food supplies, bureaucracy, academia, technology and donors.</p>
             </Container>
             <Container className="d-flex mt-5  mb-5">
             <Row xs={2} md={2} lg={4} className="g-3">
@@ -110,8 +110,8 @@ function Ourvision() {
             <Card className='team-card'>
               <Card.Img className='i-team img-fluid' variant="top" src={member.image} alt={`${member.name} - ${member.role}`} />
               <Card.Body>
-                <Card.Title className='n-team'>{member.name}</Card.Title>
-                <Card.Text className='p-role'>{member.role}</Card.Text>
+                <Card.Title className='n-team fs-5'>{member.name}</Card.Title>
+                <Card.Text className='p-role fs-6'>{member.role}</Card.Text>
               </Card.Body>
             </Card>
           </Col>

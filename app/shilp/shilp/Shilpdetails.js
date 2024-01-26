@@ -3,6 +3,7 @@ import { Container,Row,Col } from "react-bootstrap";
 import Image from "next/image";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
+import Link from 'next/link'
 
 const CardList = () => {
   return (
@@ -19,7 +20,7 @@ const CardList = () => {
                 height={100} 
               />
               <div className="card-body body-1">
-                <p className="card-text p-card-shlip">
+              <p className="card-text fs-6 fw-light">
                   Baseline exercises – to help each organisation assess where
                   they are today and take stock of their strategic and
                   operational capacities
@@ -39,7 +40,7 @@ const CardList = () => {
                 height={100} 
               />
               <div className="card-body body-1">
-                <p className="card-text p-card-shlip">
+              <p className="card-text fs-6 fw-light">
                   Business planning or work planning exercise – to help them
                   create their strategy and operating plan.
                 </p>
@@ -58,7 +59,7 @@ const CardList = () => {
                 alt="Card 3"
               />
               <div className="card-body body-1">
-                <p className="card-text p-card-shlip">
+              <p className="card-text fs-6 fw-light">
                   Capacity building modules on leadership and the role of board
                   members
                 </p>
@@ -80,7 +81,7 @@ const CardList = () => {
                 alt="Card 1"
               />
               <div className="card-body body-1">
-                <p className="card-text p-card-shlip">
+              <p className="card-text fs-6 fw-light">
                   Peer exchange sessions – to enable cross-learning and
                   cross-pollination of ideas and to build a long-lasting system
                   of peer support
@@ -100,7 +101,7 @@ const CardList = () => {
                 alt="Card 2"
               />
               <div className="card-body body-1">
-                <p className="card-text p-card-shlip">
+              <p className="card-text fs-6 fw-light">
                 Creating an opportunity to network and engage with other organisations and leaders of the programme
                 </p>
               </div>
@@ -118,7 +119,7 @@ const CardList = () => {
                 alt="Card 3"
               />
               <div className="card-body body-1">
-                <p className="card-text p-card-shlip">
+                <p className="card-text fs-6 fw-light">
                 Providing access to resources – technical, functional, and financial, to help build sustainable operations and organisations
                 </p>
               </div>
@@ -130,33 +131,34 @@ const CardList = () => {
         <Row>
           <Col lg={6} className="overlayCol">
           </Col>
-          <Col lg={6} className="Resource_shilp p-5">
-               <h3 className="t_resource">SHILP Resource Hub</h3>
-               <div className="p_resource">
-               <p >SHILP works with community organisations of vulnerable populations and their leaders, to build individual and institutional resilience for the future.</p>
-               <p>In order to fulfil the ongoing information and knowledge requirements and needs of the organisations, the Resource Hub is an online repository – ‘ready-to-use’ information and knowledge artefacts, that you will find useful, as you strengthen your organisations and your leadership teams.</p>
-               <p>The resource hub consists of self help resources such as tools, articles, frameworks, guidelines, etc., that you can access and share with others too.</p>
-               <p>The resources that you will find here are a collection of created and curated artefacts from within and outside the Catalyst Group of companies.</p> </div>
-               <button className=" b-shilp " >KNOW MORE</button>
+          <Col lg={6} className="p-5 Resource_shilp">
+               <h3 className="fs-1 fw-light text-white">SHILP Resource Hub</h3>
+               <div>
+               <p className="fs-5 fw-light text-white">SHILP works with community organisations of vulnerable populations and their leaders, to build individual and institutional resilience for the future.</p>
+               <p className="fs-5 fw-light text-white">In order to fulfil the ongoing information and knowledge requirements and needs of the organisations, the Resource Hub is an online repository – ‘ready-to-use’ information and knowledge artefacts, that you will find useful, as you strengthen your organisations and your leadership teams.</p>
+               <p className="fs-5 fw-light text-white">The resource hub consists of self help resources such as tools, articles, frameworks, guidelines, etc., that you can access and share with others too.</p>
+               <p className="fs-5 fw-light text-white">The resources that you will find here are a collection of created and curated artefacts from within and outside the Catalyst Group of companies.</p> </div>
+               <Link href="https://www.shilpresourcehub.org/" target="_blank" className='b-shilp mt-4 fs-3'>Know More
+            </Link>
           </Col>
         </Row>
       </Container>
        <Container className="mt-5"> 
        <Row>
           <Col>
-             <h2>Contact Us</h2>
-             <p>To learn more about the initiative or join us, fill this form.</p>
+             <h2 className="fs-1 fw-light">Contact Us</h2>
+             <p className="fw-light fs-5">To learn more about the initiative or join us, fill this form.</p>
           </Col>
         </Row>
        </Container>
-      <Container className='shilp_formdata mt-2'>
+       <Container className='formdata-1 mt-4'>
         <Row>
-          <Col>
-          <Form.Group className="" controlId="exampleForm.ControlTextarea1"></Form.Group>
+          <Col lg={4} sm={12}>
+          <Form.Group className="mt-3" controlId="exampleForm.ControlTextarea1"></Form.Group>
           <Form.Label className='label-style'>Full Name</Form.Label>
           <Form.Control placeholder="" />
           </Col>
-          <Col>
+          <Col lg={4} sm={12}>
           <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1"></Form.Group>
           <Form.Label className='label-style'> Mobile No. </Form.Label>
           <Form.Control placeholder="" />
@@ -168,7 +170,7 @@ const CardList = () => {
         </Col>
         </Row>
         <Row>
-           <Col>
+           <Col lg={12} sm={12}>
            <Form.Group className="mt-5 mb-4" controlId="exampleForm.ControlTextarea1">
         <Form.Label className='label-style'>Message</Form.Label>
         <Form.Control as="textarea" rows={3} />
@@ -177,8 +179,8 @@ const CardList = () => {
         </Row>
         <Row>
         <Col>
-        <Button className='btn-form' type="submit">
-        Submit
+        <Button className='btn-form border-0 p-2' type="submit">
+        Send Message
       </Button>
            </Col>
         </Row>

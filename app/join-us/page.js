@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '@/component/Header'
 import Banner from './Join/Banner'
 import Footer from '@/component/Footer'
+import JoinUs from './Join/join-us'
 
 export const metadata = {
   title: 'Empowering communities to build resilience & bounce forwards',
@@ -13,7 +14,8 @@ function Join() {
   return (
     <>
     <Header/>
-    <Banner/>
+      <Banner />
+      <JoinUs/>
     <Footer/>
 
     </>

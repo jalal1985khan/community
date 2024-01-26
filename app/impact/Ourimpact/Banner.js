@@ -23,7 +23,7 @@ function Banner() {
                   suffix=""
                   className="increment-impact"
             ></CountUp>
-            <p className='fs-4'>Partners of CAC</p>
+            <p className='fs-4 fw-light'>Partners of CAC</p>
         </Col>
         <Col lg={2} className='border-end'>
         <CountUp
@@ -34,7 +34,7 @@ function Banner() {
                   suffix=""
                   className="increment-impact"
             ></CountUp>
-            <p className='fs-4'>States & UTs</p>
+            <p className='fs-4 fw-light'>States & UTs</p>
         </Col>
         <Col lg={2} className='border-end'>
         <CountUp
@@ -45,7 +45,7 @@ function Banner() {
                   suffix=""
                   className="increment-impact"
             ></CountUp>
-            <p className='fs-4'>Vulnerable Communities</p>
+            <p className='fs-4 fw-light'>Vulnerable Communities</p>
         </Col>
         <Col lg={2} className='border-end'>
         <CountUp
@@ -56,7 +56,7 @@ function Banner() {
                   suffix="+"
                   className="increment-impact"
             ></CountUp>
-            <p className='fs-4'>Volunteers</p>
+            <p className='fs-4 fw-light'>Volunteers</p>
         </Col>
         <Col lg={2}>
         <CountUp
@@ -67,7 +67,7 @@ function Banner() {
                   suffix=".8CR"
                   className="increment-impact"
             ></CountUp>
-            <p className='fs-4'>Services Delivered</p>
+            <p className='fs-4 fw-light'>Services Delivered</p>
         </Col>
         <Col lg={2} className='border-start'>
         <CountUp
@@ -78,7 +78,7 @@ function Banner() {
                   suffix="CR"
                   className="increment-impact"
             ></CountUp>
-            <p className='fs-4'>Resources<br/>Mobilised</p>
+            <p className='fs-4 fw-light'>Resources<br/>Mobilised</p>
         </Col>
       </Row>
 
