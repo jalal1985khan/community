@@ -6,7 +6,8 @@ import Footer from "@/component/Footer";
 import Link from "next/link";
 import Image from 'next/image'
 import {  TwitterShareButton, LinkedinShareButton, TelegramShareButton, WhatsappShareButton } from 'react-share';
-import { FaTelegram, FaTwitter, FaLinkedin , FaWhatsapp} from 'react-icons/fa';
+import { FaTelegram, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import configData from "../../config.json";
 
 
 const formatDate = (date) => {
@@ -23,7 +24,7 @@ const Posts = ({ slug }) => {
     const fetchData = async () => {
       try {
         const res = await fetch(
-          `https://beta.communityactioncollab.org/wp-json/wp/v2/posts?_embed&slug=${slug}`
+          `${configData.SERVER_URL}posts?_embed&slug=${slug}`
         );
         if (!res.ok) {
           throw new Error(`Failed to fetch data. Status: ${res.status}`);

@@ -7,7 +7,7 @@ import Image from 'next/image';
 function JoinUs() {
   return (
     <>
-          <Container className='g-0'>
+          <Container className='g-0 overflow-hidden'>
           <Container className='mt-4 '>
         <Row fluid>
            <Col className=''>
@@ -37,7 +37,7 @@ function JoinUs() {
     
     <Row>
         
-        <Col lg={6} className='volunteer-1 order-1 order-lg-0'>
+        <Col lg={6} className='volunteer-1 order-1 order-lg-0 overflow-hidden'>
             <h2 className='t-volunteer fs-1 fw-light'>
             Volunteer With Us
             </h2>

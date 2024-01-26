@@ -30,8 +30,12 @@ function HeroBanner() {
 
   const applyCustomStyles = () => {
     const type = 1; //circle type - 1 whole, 0.5 half, 0.25 quarter
-    const radius = '10em'; //distance from center
+    let radius = '10em'; //distance from center
     const start = 180; //shift start from 0
+     // Adjust the radius for smaller screens (e.g., mobile devices)
+  if (window.innerWidth <= 768) {
+    radius = '5em'; // Adjust the radius value for smaller screens
+  }
 
     const elements = document.querySelectorAll('.round-slider .slider-paging-number li');
     const numberOfElements = type === 1 ? elements.length : elements.length - 1; //adj for even distro of elements when not full circle
@@ -44,6 +48,12 @@ function HeroBanner() {
       element.style.transform = `rotate(${rotate}deg) translate(${radius}) rotate(${rotateReverse}deg)`;
     });
   };
+
+  // Call the function on page load
+window.addEventListener('load', applyCustomStyles);
+
+// Call the function on window resize to handle responsive changes
+window.addEventListener('resize', applyCustomStyles);
 
   const rotateImage = () => {
     setRotation(rotation + 26);

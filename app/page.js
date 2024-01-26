@@ -9,6 +9,7 @@ import JoinUs from '@/component/HomePage/JoinUs';
 import Header from '@/component/Header';
 import Footer from '@/component/Footer';
 import Head from "next/head";
+import Stories from '@/component/HomePage/Stories';
 
 
 export const metadata = {
@@ -26,7 +27,8 @@ export default function Home() {
       <HomeBanner/>
       <HomeCTA/>
       <OurAction/>
-      <OurImpact/>
+      <OurImpact />
+      <Stories/>
       <JoinUs/>
       <Footer/>
 

@@ -9,8 +9,8 @@ function OurImpact() {
   return (
     <>
           <Container className='mt-3'>
-       <h1 className='t-action'>Our Impact</h1>
-        <p className='p-action'> Since March 2020, #COVIDActionCollab, powered by its diverse and determined partners across India, has been working tirelessly to reach the last mile. #COVIDActionCollab is now Community Action Collab and our impact continues on…</p>
+       <h1 className='t-action fs-1 fw-light'>Our Impact</h1>
+        <p className='p-action fs-5 fw-light'> Since March 2020, #COVIDActionCollab, powered by its diverse and determined partners across India, has been working tirelessly to reach the last mile. #COVIDActionCollab is now Community Action Collab and our impact continues on…</p>
       </Container>
       <Container fluid>      
         <Row>

@@ -4,6 +4,7 @@ import { Container, Row, Col, Tab, Nav, Button } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
 import { RotatingLines } from 'react-loader-spinner'
+import configData from "../../../config.json";
 
 const Blog = () => {
   const [data, setData] = useState([]);
@@ -39,7 +40,7 @@ const Blog = () => {
     const offset = (pageNum - 1) * perPage;
     setLoading(true);
 
-    let url = `https://beta.communityactioncollab.org/wp-json/wp/v2/posts?_embed&per_page=${perPage}&offset=${offset}`;
+    let url = `${configData.SERVER_URL}posts?_embed&per_page=${perPage}&offset=${offset}`;
 
     if (newCat !== undefined) {
       url += `&categories=${newCat}`;

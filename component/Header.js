@@ -27,8 +27,6 @@ const Header = () => {
               <Link href="/about-us" className="me-4 nav-link fs-6">About Us</Link>
               <Link href="/action" className="me-4 nav-link fs-6">Our Action</Link>
               <Link href="/impact" className="me-4 nav-link fs-6">Our Impact</Link>
-              
-              
               <NavDropdown title="Our Initiatives" id="basic-nav-dropdown" className="me-4">
                 <Link className='dropdown-item fs-6' href="/shilp">SHILP</Link>
                 <NavDropdown.Divider />
@@ -61,23 +59,23 @@ const Header = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column ">
-            <Nav.Link href="/" className='m_menu_item' onClick={handleOffcanvasClose}>Home</Nav.Link>
-            <Nav.Link href="/about" className='m_menu_item' onClick={handleOffcanvasClose}>About Us</Nav.Link>
-            <Nav.Link href="/action" className='m_menu_item' onClick={handleOffcanvasClose}>Our Action</Nav.Link>
-            <Nav.Link href="/impact" className='m_menu_item' onClick={handleOffcanvasClose}>Our Impact</Nav.Link>
-            <NavDropdown title="Our Initiatives" className='m_menu_dropdown' id="offcanvas-nav-dropdown">
-              <NavDropdown.Item href="/shilp" className='m_menu_' onClick={handleOffcanvasClose}>SHILP</NavDropdown.Item>
-              <NavDropdown.Item href="#action/2" className='m_menu_item'  onClick={handleOffcanvasClose}>Economic resilience</NavDropdown.Item>
-              <NavDropdown.Item href="https://covidactioncollab.org/vaxnow/" className='m_menu_item' onClick={handleOffcanvasClose}>VaxNow</NavDropdown.Item>
-            <NavDropdown.Item href="https://www.precisionhealth.in/" className='m_menu_item' onClick={handleOffcanvasClose}>Precision Health</NavDropdown.Item>
+            <Nav.Link href="/" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Home</Nav.Link>
+            <Nav.Link href="/about" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>About Us</Nav.Link>
+            <Nav.Link href="/action" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Our Action</Nav.Link>
+            <Nav.Link href="/impact" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Our Impact</Nav.Link>
+            <NavDropdown title="Our Initiatives" className='m_menu_dropdown fs-5' id="offcanvas-nav-dropdown">
+              <NavDropdown.Item href="/shilp" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>SHILP</NavDropdown.Item>
+              <NavDropdown.Item href="#action/2" className='m_menu_item fs-5'  onClick={handleOffcanvasClose}>Economic resilience</NavDropdown.Item>
+              <NavDropdown.Item href="https://covidactioncollab.org/vaxnow/" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>VaxNow</NavDropdown.Item>
+            <NavDropdown.Item href="https://www.precisionhealth.in/" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Precision Health</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Resource Hub" className='m_menu_item'  id="offcanvas-nav-dropdown">
-              <NavDropdown.Item href="/shilp" className='m_menu_item' onClick={handleOffcanvasClose}>Knowledgebase</NavDropdown.Item>
+            <NavDropdown title="Resource Hub" className='m_menu_item fs-5'  id="offcanvas-nav-dropdown">
+              <NavDropdown.Item href="/shilp" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Knowledgebase</NavDropdown.Item>
            
-              <NavDropdown.Item href="#action/2" className='m_menu_item' onClick={handleOffcanvasClose}>Media</NavDropdown.Item>
+              <NavDropdown.Item href="#action/2" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Media</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/join-us" className='m_menu_item' onClick={handleOffcanvasClose}>Join Us</Nav.Link>
-            <Nav.Link href="/contact-us" className='m_menu_item' onClick={handleOffcanvasClose}>Contact Us</Nav.Link>
+            <Nav.Link href="/join-us" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Join Us</Nav.Link>
+            <Nav.Link href="/contact-us" className='m_menu_item fs-5' onClick={handleOffcanvasClose}>Contact Us</Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>

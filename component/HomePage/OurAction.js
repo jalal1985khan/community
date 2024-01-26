@@ -12,8 +12,8 @@ export default function OurAction() {
       <Container className='mt-4 mb-4'>
         <Row>
            <Col className=''>
-              <h1 className='t-action'>Our Action</h1>
-              <p className='p-action'> CAC deploys a three-pronged approach to build the resilience of vulnerable communities to not just survive but also thrive amidst a crisis:</p>
+              <h1 className='t-action fs-1 fw-light'>Our Action</h1>
+              <p className='p-action fs-5 fw-light'> CAC deploys a three-pronged approach to build the resilience of vulnerable communities to not just survive but also thrive amidst a crisis:</p>
            </Col> 
 </Row>
         </Container>
@@ -27,7 +27,7 @@ export default function OurAction() {
   <Image src="/images/015-Build-Blockchain.svg" class="" alt="..." width={80} height={80} />
   <div class="card-body">
     <h5 class="card-title fs-2 text-white">Orchestratee</h5>
-    <p class="card-text text-white">Functional governance systems that cause dynamic network effects, with nodes to actively address the needs of the vulnerable and enable human capital for emergency response.</p>
+    <p class="card-text text-white fs-5 fw-light">Functional governance systems that cause dynamic network effects, with nodes to actively address the needs of the vulnerable and enable human capital for emergency response.</p>
   </div>
 </div>
 </Col>
@@ -38,7 +38,7 @@ export default function OurAction() {
   <Image src="/images/influencer.svg" class="" alt="..." width={80} height={80} />
   <div class="card-body">
     <h5 class="card-title fs-2">Influence</h5>
-    <p class="card-text">Significant policy and practice changes. Amplify components/issues through global collaboration.</p>
+    <p class="card-text fs-5 fw-light">Significant policy and practice changes. Amplify components/issues through global collaboration.</p>
   </div>
 </div>
 </Col>
@@ -49,7 +49,7 @@ export default function OurAction() {
   <Image src="/images/business-and-finance.svg" class="" alt="..." width={80} height={80} />
   <div class="card-body">
     <h5 class="card-title fs-2 text-white">Solve</h5>
-    <p class="card-text text-white">Scalable solutions, response time and district level integrated action.</p>
+    <p class="card-text text-white fs-5 fw-light">Scalable solutions, response time and district level integrated action.</p>
   </div>
 </div>
 
