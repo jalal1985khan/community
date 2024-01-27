@@ -6,16 +6,15 @@ import Footer from './Footer'
 import Content from './Content'
 import Contact from './Contact'
 
+const title= 'Invest for community development with Community Action Collab'
+  const description = 'Drive community development, build resilience among the vulnerable and empower communities by investing in our humanitarian emergency platform. Know more.'
+  const url = 'https://communityactioncollab.org/invest-for-change'
+  const banner ="/images/Highcompressed_712800817.png"
 
-
-
-export const metadata = {
-  title: 'Supporting last mile to overcome humanitarian crises',
-  description: 'The impact that we have facilitated through our partnerships provided relief and helped vulnerable communities, front line workers and healthcare providers bounce back from humanitarian crises. Read more.',
-}
 function Impact() {
   return (
     <>
+      <Seo title={title} description={description} path={url} metaImage={banner} />
     <Header/>
           <Banner />
       <Content />

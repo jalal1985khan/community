@@ -5,6 +5,13 @@ import Economic from './EconomicResilience/Economic';
 import Footer from '@/component/Footer';
 import FrameworkAccordion from './EconomicResilience/FrameworkAccordion';
 import PartnersAnchoring from './EconomicResilience/PartnersAnchoring';
+import Seo from '../../component/Seo'
+
+
+const title= 'Empowering communities through economic resilience'
+  const description = 'The Economic Resilience Impact Canvas builds the resilience of vulnerable populations by enabling them to withstand any humanitarian crisis'
+  const url = 'https://communityactioncollab.org/economic-resilience/'
+  const banner ="/images/Highcompressed_712800817.png"
 
 
 
@@ -16,7 +23,8 @@ export const metadata = {
 function Economic_Resilience() {
   return (
 
-        <>
+    <>
+      <Seo title={title} description={description} path={url} metaImage={banner} />
         <Header/>
         <Banner/>
         <Economic/>

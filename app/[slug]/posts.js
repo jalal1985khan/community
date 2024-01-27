@@ -8,6 +8,8 @@ import Image from 'next/image'
 import {  TwitterShareButton, LinkedinShareButton, TelegramShareButton, WhatsappShareButton } from 'react-share';
 import { FaTelegram, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 import configData from "../../config.json";
+import Seo from '../../component/Seo'
+
 
 
 const formatDate = (date) => {
@@ -48,6 +50,9 @@ const Posts = ({ slug }) => {
 
   return (
     <>
+      {data.map((item) => (
+        <Seo title={item.title.rendered} description={item.title.rendered} path={slug} metaImage={item.acf.banner_image.url} />
+      ))}
       <Header />
       {data.map((item) => (
         <div key={item.id}>
