@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '@/component/Header'
-import Footer from '@/component/Footer'
+import Header from '../../../component/Header'
+import Footer from '../../../component/Footer'
 import Contactform from './contact/Contactform'
-import Seo from '../../component/Seo'
+import Seo from '../../../component/Seo'
 
 
 const title= 'Collaborate to create impact in lives of the last mile'

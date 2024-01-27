@@ -1,10 +1,10 @@
 
 import React from 'react'
-import Header from '@/component/Header'
+import Header from '../../../component/Header'
 import Banner from './ActionComponent/Banner'
 import Bodyaction from './ActionComponent/Bodyaction'
-import Footer from '@/component/Footer'
-import Seo from '../../component/Seo'
+import Footer from '../../../component/Footer'
+import Seo from '../../../component/Seo'
 
 
 const title= 'Designs & delivers high-impact services to marginalised communities'

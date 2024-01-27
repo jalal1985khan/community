@@ -1,10 +1,10 @@
 
 import React from 'react'
-import Header from '@/component/Header'
+import Header from '../../../component/Header'
 import Banner from './Ourimpact/Banner'
-import Footer from '@/component/Footer'
+import Footer from '../../../component/Footer'
 import Blog from './Ourimpact/Blog'
-import Seo from '../../component/Seo'
+import Seo from '../../../component/Seo'
 
 const title= 'Supporting last mile to overcome humanitarian crises'
   const description = 'The impact that we have facilitated through our partnerships provided relief and helped vulnerable communities, front line workers and healthcare providers bounce back from humanitarian crises. Read more.'

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 import Link from 'next/link'
-import ContactForm from "@/utils/ContactForm";
+import ContactForm from "../../../../utils/ContactForm";
 
 const CardList = () => {
   return (

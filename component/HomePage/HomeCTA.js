@@ -3,7 +3,6 @@
 import React from 'react'
 import {Row, Col, Container} from 'react-bootstrap'
 import Image from 'next/image'
-import { images } from '@/next.config'
 import Link from 'next/link'
 
 

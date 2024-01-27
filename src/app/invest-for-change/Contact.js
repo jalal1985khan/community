@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import InvestContact from '../../utils/InvestContact'
+import InvestContact from '../../../utils/InvestContact'
 
 function Contact() {
   return (

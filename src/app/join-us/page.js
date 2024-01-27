@@ -1,10 +1,10 @@
 
 import React from 'react'
-import Header from '@/component/Header'
+import Header from '../../../component/Header'
 import Banner from './Join/Banner'
-import Footer from '@/component/Footer'
+import Footer from '../../../component/Footer'
 import JoinUs from './Join/join-us'
-import Seo from '../../component/Seo'
+import Seo from '../../../component/Seo'
 
 
 const title= 'Empowering communities to build resilience &amp; bounce forward'

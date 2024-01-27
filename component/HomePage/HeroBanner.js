@@ -49,11 +49,15 @@ function HeroBanner() {
     });
   };
 
+  if (typeof window !== "undefined") {
   // Call the function on page load
-window.addEventListener('load', applyCustomStyles);
+  window.addEventListener('load', applyCustomStyles);
 
-// Call the function on window resize to handle responsive changes
-window.addEventListener('resize', applyCustomStyles);
+  // Call the function on window resize to handle responsive changes
+  window.addEventListener('resize', applyCustomStyles);  
+  }
+
+
 
   const rotateImage = () => {
     setRotation(rotation + 26);

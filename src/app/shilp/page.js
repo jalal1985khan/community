@@ -1,12 +1,12 @@
 "use client"
 
-import Header from '@/component/Header'
+import Header from '../../../component/Header'
 import React from 'react';
 import Banner from './shilp/Banner';
-import Footer from '@/component/Footer'
+import Footer from '../../../component/Footer'
 import Aboutshilp from './shilp/Aboutshilp';
 import CardWithImage from './shilp/Shilpdetails';
-import Seo from '../../component/Seo'
+import Seo from '../../../component/Seo'
 
 
 const title= 'Empowering community organisations to progress in their pursuit for the last mile'

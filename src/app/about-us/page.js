@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '@/component/Header';
+import Header from '../../../component/Header';
 import Banner from './abouComponent/Banner';
 import Ourvision from './abouComponent/Ourvision';
-import Footer from '@/component/Footer';
-import Seo from '../../component/Seo'
+import Footer from '../../../component/Footer';
+import Seo from '../../../component/Seo'
 
 
 const title= 'Empowering the last mile to survive & thrive during humanitarian crises'

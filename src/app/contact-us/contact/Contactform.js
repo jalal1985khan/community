@@ -4,7 +4,7 @@ import {Row, Col, Container} from 'react-bootstrap'
 import Image from 'next/image'
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
-import Contact from '@/utils/ContactForm';
+import Contact from '../../../../utils/ContactForm';
 
 
 

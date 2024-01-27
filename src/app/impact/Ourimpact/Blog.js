@@ -4,7 +4,7 @@ import { Container, Row, Col, Tab, Nav, Button } from 'react-bootstrap';
 import Image from 'next/image';
 import Link from 'next/link';
 import { RotatingLines } from 'react-loader-spinner'
-import configData from "../../../config.json";
+import configData from "../../../../config.json";
 
 const Blog = () => {
   const [data, setData] = useState([]);

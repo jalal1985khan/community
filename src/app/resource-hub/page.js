@@ -1,9 +1,9 @@
-import Header from '@/component/Header';
+import Header from '../../../component/Header';
 import React from 'react';
-import Footer from '@/component/Footer'
+import Footer from '../../../component/Footer'
 import Banner from './Resource/Banner';
 import Knowledgebase from './Resource/Knowledgebase';
-import Seo from '../../component/Seo'
+import Seo from '../../../component/Seo'
 
 
 const title= 'Knowledgebase - Community Collab Action'

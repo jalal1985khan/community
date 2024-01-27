@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from '@/component/Header'
+import Header from '../../../component/Header'
 import Banner from './EconomicResilience/Banner';
 import Economic from './EconomicResilience/Economic';
-import Footer from '@/component/Footer';
+import Footer from '../../../component/Footer';
 import FrameworkAccordion from './EconomicResilience/FrameworkAccordion';
 import PartnersAnchoring from './EconomicResilience/PartnersAnchoring';
-import Seo from '../../component/Seo'
+import Seo from '../../../component/Seo'
 
 
 const title= 'Empowering communities through economic resilience'

@@ -1,14 +1,15 @@
 "use client";
 import { Container, Row, Col} from "react-bootstrap";
 import React, { useState, useEffect } from "react";
-import Header from "@/component/Header";
-import Footer from "@/component/Footer";
+import Header from "../../../component/Header";
+import Footer from "../../../component/Footer";
 import Link from "next/link";
 import Image from 'next/image'
 import {  TwitterShareButton, LinkedinShareButton, TelegramShareButton, WhatsappShareButton } from 'react-share';
-import { FaTelegram, FaTwitter, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
-import configData from "../../config.json";
-import Seo from '../../component/Seo'
+import { FaTelegram, FaTwitter, FaLinkedin, 
+  FaWhatsapp } from 'react-icons/fa';
+import configData from "../../../config.json";
+import Seo from '../../../component/Seo'
 
 
 
