@@ -2,7 +2,7 @@
 import React from 'react';
 import {Row, Col, Container, Card} from 'react-bootstrap'
 import Image from 'next/image';
-
+import Link from 'next/link'
 
 function JoinUs() {
   return (
@@ -56,9 +56,9 @@ function JoinUs() {
             Invest In Community Action Collab
             </h2>
             <p className='p-partner fs-5 fw-light'>Community Action Collab isn’t merely an aggregation of partners but an aggregation of capacities, through which key high-impact initiatives have been developed.</p>
-            <a href=''className='btn btn-partner'>
+            <Link href='/invest-for-change'className='btn btn-partner'>
                FIND OUT MORE
-            </a>
+            </Link>
            
         </Col>
     </Row>

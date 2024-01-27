@@ -9,7 +9,7 @@ import Link from 'next/link';
 function Knowledgebase() {
   return (
     <>
-      <Container>
+      <Container id="base">
         <Row>
           <Col>
             <h1 className='fs-1 pt-4 pb-4 fw-light'>Knowledge Base</h1>

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button'
 import Link from 'next/link'
+import ContactForm from "@/utils/ContactForm";
 
 const CardList = () => {
   return (
@@ -137,8 +138,8 @@ const CardList = () => {
                <p className="fs-5 fw-light text-white">SHILP works with community organisations of vulnerable populations and their leaders, to build individual and institutional resilience for the future.</p>
                <p className="fs-5 fw-light text-white">In order to fulfil the ongoing information and knowledge requirements and needs of the organisations, the Resource Hub is an online repository – ‘ready-to-use’ information and knowledge artefacts, that you will find useful, as you strengthen your organisations and your leadership teams.</p>
                <p className="fs-5 fw-light text-white">The resource hub consists of self help resources such as tools, articles, frameworks, guidelines, etc., that you can access and share with others too.</p>
-               <p className="fs-5 fw-light text-white">The resources that you will find here are a collection of created and curated artefacts from within and outside the Catalyst Group of companies.</p> </div>
-               <Link href="https://www.shilpresourcehub.org/" target="_blank" className='b-shilp mt-4 fs-3'>Know More
+               <p className="fs-5 fw-light text-white mb-4">The resources that you will find here are a collection of created and curated artefacts from within and outside the Catalyst Group of companies.</p> </div>
+               <Link href="https://www.shilpresourcehub.org/" target="_blank" className='b-shilp fs-6'>Know More
             </Link>
           </Col>
         </Row>
@@ -152,38 +153,7 @@ const CardList = () => {
         </Row>
        </Container>
        <Container className='formdata-1 mt-4'>
-        <Row>
-          <Col lg={4} sm={12}>
-          <Form.Group className="mt-3" controlId="exampleForm.ControlTextarea1"></Form.Group>
-          <Form.Label className='label-style'>Full Name</Form.Label>
-          <Form.Control placeholder="" />
-          </Col>
-          <Col lg={4} sm={12}>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1"></Form.Group>
-          <Form.Label className='label-style'> Mobile No. </Form.Label>
-          <Form.Control placeholder="" />
-        </Col>
-        <Col>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1"></Form.Group>
-        <Form.Label className='label-style'>Email ID</Form.Label>
-          <Form.Control placeholder="" />
-        </Col>
-        </Row>
-        <Row>
-           <Col lg={12} sm={12}>
-           <Form.Group className="mt-5 mb-4" controlId="exampleForm.ControlTextarea1">
-        <Form.Label className='label-style'>Message</Form.Label>
-        <Form.Control as="textarea" rows={3} />
-      </Form.Group>
-           </Col>
-        </Row>
-        <Row>
-        <Col>
-        <Button className='btn-form border-0 p-2' type="submit">
-        Send Message
-      </Button>
-           </Col>
-        </Row>
+        <ContactForm/>
       </Container>
     </>
   );

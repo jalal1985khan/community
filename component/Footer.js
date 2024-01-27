@@ -9,7 +9,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 
 function Footer() {
-
+  const d = new Date();
+  let year = d.getFullYear();
   return (
     <>
      <Container className='footer-cs text-center pt-4 pb-4' fluid>
@@ -55,7 +56,7 @@ function Footer() {
         <Container fluid>
         <Row>
           <Col className='bg-copy'>
-             <p className='p_copy'>Copyright ©2024 Catalyst Management Services Pvt. Ltd.</p>
+             <p className='p_copy'>Copyright © {year} Catalyst Management Services Pvt. Ltd.</p>
           </Col>
         </Row>
         </Container>

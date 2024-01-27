@@ -37,9 +37,9 @@ const Header = () => {
                 <NavDropdown.Item href="https://www.precisionhealth.in/" target='_blank'>Precision Health</NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Resource Hub" id="basic-nav-dropdown" className="me-4">
-              <Link className='dropdown-item fs-6' href="#action/1">Knowledgebase</Link>
+              <Link className='dropdown-item fs-6' href="/resource-hub/#base">Knowledgebase</Link>
                 <NavDropdown.Divider />
-                <Link className='dropdown-item fs-6' href="#action/2">Media</Link>
+                <Link className='dropdown-item fs-6' href="/resource-hub/#media">Media</Link>
               </NavDropdown>
               <Link className='me-4 nav-link fs-6' href="/join-us">Join Us</Link>
               <Link className='me-4 nav-link fs-6' href="/contact-us">Contact Us</Link>
