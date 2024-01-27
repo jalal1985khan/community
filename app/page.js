@@ -1,7 +1,5 @@
 
-import {React,useContext} from 'react';
-import Image from 'next/image';
-import styles from './page.module.css';
+import {React} from 'react';
 import HomeBanner from '@/component/HomePage/HeroBanner';
 import HomeCTA from '@/component/HomePage/HomeCTA';
 import OurAction from '@/component/HomePage/OurAction';
@@ -20,13 +18,12 @@ const title= 'Dynamic humanitarian emergency platform for community development'
 
 
 
-const  Home =()=> {
+  export default function Home() {
 
 
   return (
     <>
       <Seo title={title} description={description} path={url} metaImage={banner} />
-   
        <Header/>
       <HomeBanner/>
       <HomeCTA/>
@@ -39,4 +36,3 @@ const  Home =()=> {
     </>
   )
 }
-export default Home;

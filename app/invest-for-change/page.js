@@ -5,6 +5,7 @@ import Banner from './Banner'
 import Footer from './Footer'
 import Content from './Content'
 import Contact from './Contact'
+import Seo from '../../component/Seo'
 
 const title= 'Invest for community development with Community Action Collab'
   const description = 'Drive community development, build resilience among the vulnerable and empower communities by investing in our humanitarian emergency platform. Know more.'

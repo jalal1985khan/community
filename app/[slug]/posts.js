@@ -50,8 +50,8 @@ const Posts = ({ slug }) => {
 
   return (
     <>
-      {data.map((item) => (
-        <Seo title={item.title.rendered} description={item.title.rendered} path={slug} metaImage={item.acf.banner_image.url} />
+      {data.map((item, index) => (
+        <Seo title={item.title.rendered} description={item.title.rendered} path={slug} metaImage={item.acf.banner_image.url} key={index} />
       ))}
       <Header />
       {data.map((item) => (
