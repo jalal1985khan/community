@@ -34,7 +34,7 @@ function FrameworkAccordion() {
                       alt="Card 2"
                     />
                     <div className="card-body">
-                      <h5 class="card-title fs-5">1. Conservation</h5>
+                      <h5 className="card-title fs-5">1. Conservation</h5>
                       <p className="card-text p-card-economic fs-5 fw-light">
                         Focus on protecting the existing resources and sources
                         of income and reducing expenses by meeting the basic
@@ -53,7 +53,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title  fs-5">Reduce expenses</h5>
+                        <h5 className="card-title  fs-5">Reduce expenses</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                           Through initiatives like providing access to social
                           protection schemes like PDS, MGNREGA job cards,
@@ -70,7 +70,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Protect the resources and sources of income of the poor</h5>
+                        <h5 className="card-title fs-5">Protect the resources and sources of income of the poor</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                           This could be achieved through drought-proofing of
                           farms, insuring assets or vaccination of livestock and
@@ -91,7 +91,7 @@ function FrameworkAccordion() {
                       alt="Card 2"
                     />
                     <div className="card-body">
-                      <h5 class="card-title fs-5">2. Diversification</h5>
+                      <h5 className="card-title fs-5">2. Diversification</h5>
                       <p className="card-text p-card-economic fs-5 fw-light">
                       Bring in more income-generating aspects to the existing source of income and reduce the risk of one source being affected by a shock.
                       </p>
@@ -108,7 +108,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Help the family save and build a larger diverse asset base</h5>
+                        <h5 className="card-title fs-5">Help the family save and build a larger diverse asset base</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                         In the short run, cash, livestock, chits, etc. could be built and in the long run assets like gold/durables/house/education of children, etc.
                         </p>
@@ -122,7 +122,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Help the family have multiple revenue sources</h5>
+                        <h5 className="card-title fs-5">Help the family have multiple revenue sources</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                         This could be wages, nano- enterprises, skill development, pensions, remittances, govt transfers, assets which are different risk factors.
                         </p>
@@ -141,7 +141,7 @@ function FrameworkAccordion() {
                       alt="Card 2"
                     />
                     <div className="card-body">
-                      <h5 class="card-title fs-5">3. Aggregation</h5>
+                      <h5 className="card-title fs-5">3. Aggregation</h5>
                       <p className="card-text p-card-economic fs-5 fw-light">
                       Coming together to create better social capacity through collective voices and better negotiation of interests among different actors
                       </p>
@@ -158,7 +158,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Aggregation and organisation around production</h5>
+                        <h5 className="card-title fs-5">Aggregation and organisation around production</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                         Higher income to smallholders/labourers can be realised when they lower input cost, negotiate with scale in the market, etc.
 
@@ -174,7 +174,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Collective identity around social groupings</h5>
+                        <h5 className="card-title fs-5">Collective identity around social groupings</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                         Changes in social terms comes when one gets social status and able to get mutual support system to address adversaries.
                         </p>
@@ -189,7 +189,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Collective voices</h5>
+                        <h5 className="card-title fs-5">Collective voices</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                         Building capacity of the communities to voice their collective opinions, demands and bring power to influence decision making agencies.
                         </p>
@@ -208,7 +208,7 @@ function FrameworkAccordion() {
                       alt="Card 2"
                     />
                     <div className="card-body">
-                      <h5 class="card-title fs-5">4. Risk Pooling</h5>
+                      <h5 className="card-title fs-5">4. Risk Pooling</h5>
                       <p className="card-text p-card-economic fs-5 fw-light">
                       Build mechanisms to reduce risks to income sources and assets. This includes creating social and physical resources to manage risks and mitigating them.
                       </p>
@@ -225,7 +225,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Set up informal insurance mechanisms</h5>
+                        <h5 className="card-title fs-5">Set up informal insurance mechanisms</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                         Friendly neighbours, helpful relatives, benefactors/patrons to help when risk hits.
                         </p>
@@ -239,7 +239,7 @@ function FrameworkAccordion() {
                         alt="Card 2"
                       />
                       <div className="card-body">
-                        <h5 class="card-title fs-5">Set up formal insurance mechanisms</h5>
+                        <h5 className="card-title fs-5">Set up formal insurance mechanisms</h5>
                         <p className="card-text p-card-economic fs-5 fw-light">
                         To ensure pooling of risks and help in adversity is a right because one is part of the pool.
                         </p>

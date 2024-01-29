@@ -28,70 +28,70 @@ function Content() {
           <Container className='i-banner mt-5'>
               <Row>
                   <Col>
-                  <div class="card mb-3 border-0" style={{background:'#ffffff00'}}>
-  <div class="row g-0">
-    <div class="col-md-1 d-flex justify-content-center">
+                  <div className="card mb-3 border-0" style={{background:'#ffffff00'}}>
+  <div className="row g-0">
+    <div className="col-md-1 d-flex justify-content-center">
       <img src="/images/social-care.png" className="" alt="Reached 13 categories of most vulnerable groups" width={50} height={50} />
     </div>
-    <div class="col-md-11">
-      <div class="card-body">
-        <h5 class="card-title">Reached <span className='fs-3 fw-bold'>13</span> categories of most vulnerable groups</h5>
+    <div className="col-md-11">
+      <div className="card-body">
+        <h5 className="card-title">Reached <span className='fs-3 fw-bold'>13</span> categories of most vulnerable groups</h5>
       </div>
     </div>
   </div>
 </div>
                   </Col>
                   <Col lg={12}>
-<div class="card mb-3 border-0" style={{background:'#ffffff00'}}>
-  <div class="row g-0">
-    <div class="col-md-1 d-flex justify-content-center">
-      <img src="/images/noun-service.png"  alt="2.8 Cr service instances" width={50} height={50} />
+<div className="card mb-3 border-0" style={{background:'#ffffff00'}}>
+  <div className="row g-0">
+    <div className="col-md-1 d-flex justify-content-center">
+      <Image src="/images/noun-service.png"  alt="2.8 Cr service instances" width={50} height={50} />
     </div>
-    <div class="col-md-11">
-      <div class="card-body">
-        <h5 class="card-title"><span className='fs-3 fw-bold'>2.8 Cr</span> service instances</h5>
+    <div className="col-md-11">
+      <div className="card-body">
+        <h5 className="card-title"><span className='fs-3 fw-bold'>2.8 Cr</span> service instances</h5>
       </div>
     </div>
   </div>
 </div>
                   </Col>
                   <Col lg={12}>
-                  <div class="card mb-3 border-0" style={{background:'#ffffff00'}}>
-  <div class="row g-0">
-  <div class="col-md-1 d-flex justify-content-center">
-      <img src="/images/noun-development-solutions.png"  alt="22 innovative solutions for unique, difficult issues" width={50} height={50} />
+                  <div className="card mb-3 border-0" style={{background:'#ffffff00'}}>
+  <div className="row g-0">
+  <div className="col-md-1 d-flex justify-content-center">
+      <Image src="/images/noun-development-solutions.png"  alt="22 innovative solutions for unique, difficult issues" width={50} height={50} />
     </div>
-    <div class="col-md-11">
-      <div class="card-body">
-        <h5 class="card-title"><span className='fs-3 fw-bold'>22</span> innovative solutions for unique, difficult issues</h5>
+    <div className="col-md-11">
+      <div className="card-body">
+        <h5 className="card-title"><span className='fs-3 fw-bold'>22</span> innovative solutions for unique, difficult issues</h5>
       </div>
     </div>
   </div>
 </div>
                   </Col>
                   <Col lg={12}>
-                  <div class="card mb-3 border-0" style={{background:'#ffffff00'}}>
-  <div class="row g-0">
-  <div class="col-md-1 d-flex justify-content-center">
-      <img src="/images/noun-partnership.png"  alt="360+ partners | 1,000+ exchanges" width={50} height={50} />
+                  <div className="card mb-3 border-0" style={{background:'#ffffff00'}}>
+  <div className="row g-0">
+  <div className="col-md-1 d-flex justify-content-center">
+      <Image src="/images/noun-partnership.png"  alt="360+ partners | 1,000+ exchanges" width={50} height={50} />
     </div>
-    <div class="col-md-11">
-      <div class="card-body">
-        <h5 class="card-title"><span className='fs-3 fw-bold'>360+</span> partners | <span className='fs-3 fw-bold'>1,000+</span> exchanges</h5>
+    <div className="col-md-11">
+      <div className="card-body">
+        <h5 className="card-title"><span className='fs-3 fw-bold'>360+</span> partners | <span className='fs-3 fw-bold'>1,000+</span> exchanges</h5>
       </div>
     </div>
   </div>
 </div>
 </Col>
 <Col lg={12}>
-                  <div class="card mb-3 border-0" style={{background:'#ffffff00'}}>
-  <div class="row g-0">
-  <div class="col-md-1 d-flex justify-content-center">
+                  <div className="card mb-3 border-0" style={{background:'#ffffff00'}}>
+  <div className="row g-0">
+  <div className="col-md-1 d-flex justify-content-center">
                                   <Image src="/images/noun-india.png"  alt="Pan India presence: 36 States & UTs" width={50} height={50} />
     </div>
-    <div class="col-md-11">
-      <div class="card-body">
-        <h5 class="card-title">Pan India presence: <span className='fs-3 fw-bold'>36</span> States & UTs</h5>
+    <div className="col-md-11">
+      <div className="card-body">
+        <h5 className="card-title">Pan India presence: <span className='fs-3 fw-bold'>36</span> States & UTs</h5>
       </div>
     </div>
   </div>

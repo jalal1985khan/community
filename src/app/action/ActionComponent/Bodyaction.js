@@ -31,11 +31,11 @@ function Bodyaction()  {
           <Row>
             
             <Col  style={{ background: '#3690C0' }} className='p-4'>      
-            <div class="card border-0" style={{ background: '#3690C0' }}>
-  <Image src="/images/015-Build-Blockchain.svg" class="" alt="..." width={80} height={80} />
-  <div class="card-body">
-    <h5 class="card-title fs-2 text-white">Orchestratee</h5>
-    <p class="card-text text-white fs-5 fw-light">Functional governance systems that cause dynamic network effects, with nodes to actively address the needs of the vulnerable and enable human capital for emergency response.</p>
+            <div className="card border-0" style={{ background: '#3690C0' }}>
+  <Image src="/images/015-Build-Blockchain.svg" className="" alt="..." width={80} height={80} />
+  <div className="card-body">
+    <h5 className="card-title fs-2 text-white">Orchestratee</h5>
+    <p className="card-text text-white fs-5 fw-light">Functional governance systems that cause dynamic network effects, with nodes to actively address the needs of the vulnerable and enable human capital for emergency response.</p>
   </div>
 </div>
 </Col>
@@ -43,22 +43,22 @@ function Bodyaction()  {
             
             <Col style={{ background: '#FDD700' }} className='p-4'>
               
-            <div class="card border-0" style={{ background: '#FDD700' }}>
-  <Image src="/images/influencer.svg" class="" alt="..." width={80} height={80} />
-  <div class="card-body">
-    <h5 class="card-title fs-2">Influence</h5>
-    <p class="card-textc fs-5 fw-light">Significant policy and practice changes. Amplify components/issues through global collaboration.</p>
+            <div className="card border-0" style={{ background: '#FDD700' }}>
+  <Image src="/images/influencer.svg" className="" alt="..." width={80} height={80} />
+  <div className="card-body">
+    <h5 className="card-title fs-2">Influence</h5>
+    <p className="card-textc fs-5 fw-light">Significant policy and practice changes. Amplify components/issues through global collaboration.</p>
   </div>
 </div>
 
             </Col>
             <Col className='triangle-right-1' lg={1}></Col>
             <Col style={{ background: '#272727' }} className='p-4'>        
-            <div class="card border-0" style={{ background: '#272727' }}>
-  <Image src="/images/business-and-finance.svg" class="" alt="..." width={80} height={80} />
-  <div class="card-body">
-    <h5 class="card-title fs-2 text-white">Solve</h5>
-    <p class="card-text text-white fs-5 fw-light">Scalable solutions, response time and district level integrated action.</p>
+            <div className="card border-0" style={{ background: '#272727' }}>
+  <Image src="/images/business-and-finance.svg" className="" alt="..." width={80} height={80} />
+  <div className="card-body">
+    <h5 className="card-title fs-2 text-white">Solve</h5>
+    <p className="card-text text-white fs-5 fw-light">Scalable solutions, response time and district level integrated action.</p>
   </div>
 </div>
 

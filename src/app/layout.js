@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body >{children}
-      
+      <link rel="icon" href="/images/cac_favicon-150x150.png" />
        {/* Start Google Analytics Manager */}
        <Script
         strategy="afterInteractive"

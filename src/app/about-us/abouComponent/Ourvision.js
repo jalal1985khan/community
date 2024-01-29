@@ -10,15 +10,16 @@ function Ourvision() {
     { name: 'Deepali Khanna', role: 'Managing Director, Asia Regional Office, The Rockefeller Foundation', image: '/images/deepali.png' },
     { name: 'Madan Padaki', role: 'Entrepreneur, Co-Founder; 1Bridge, Global Alliance for Mass Entrepreneurship (GAME)', image: '/images/madan-1.png' },
     { name: 'N. Raghunathan', role: 'Founder, Catalyst Group', image: '/images/n.rahunathan.png' },
-    { name: 'Naina Subberwal Batra', role: 'Chairperson & CEO at AVPN (Asian Venture Philanthropy Network)', image: '/images/naina.png' },
+    // { name: 'Naina Subberwal Batra', role: 'Chairperson & CEO at AVPN (Asian Venture Philanthropy Network)', image: '/images/naina.png' },
     { name: 'Prasada Rao', role: 'Former UN SG Special Envoy on AIDS in Asia Pacific and former Health Secretary, Govt. of India', image: '/images/prasada.png' },
-    { name: 'Rajeev Sadanandan', role: 'Chief Executive Officer of Health Systems Transformation Platform (HSTP); Former Additional Chief Secretary, Dept. of Health, Govt. of Kerala', image: '/images/rajeev_s.jpg' },
+    { name: 'Rajeev Sadanandan', role: 'CEO, Health Systems Transformation Platform (HSTP), Former Additional Cheif Secretary, Dept of Health, Govt. of Kerala', image: '/images/rajeev_s.jpg' },
     { name: 'Shiv Kumar', role: 'Founder, Catalyst Group', image: '/images/shiv.png' },
-    { name: 'Srinivas Uppaluri', role: 'Leadership Coach, Author, Speaker, Mentor & Advisor to several CEOs and CXOs, Business and Functional Heads, across IT, Business Consulting, Global Shared Service Centres, Banks, Investment Banking businesses', image: '/images/srinivas.jpeg' },
-    { name: 'SS Bhat', role: 'CEO, Friends of Women’s World Banking (FWWB), India. Board of MYRADA and Sanghamithra Rural Financial Services and on Management Committee of Guarantee Scheme of Educational Loans of Govt of India', image: '/images/ssbhat.jpg' },
-    { name: 'Moutushi Sengupta', role: 'Director, India at MacArthur Foundation', image: '/images/motushi.jpg' },
-    { name: 'Hari Krishna N', role: 'Senior Disaster Risk Management Advisor, UNDP', image: '/images/hari.jpg' },
-    { name: 'Gayathri Vasudevan', role: 'Chairperson, Labournet', image: '/images/gayatri.jpg' },
+    { name: 'Srinivas Uppaluri', role: 'Leadership Coach, Author, Mentor, Advisor, Former VP & Global Head of Marketing, Infosys ', image: '/images/srinivas.jpeg' },
+    { name: 'SS Bhat', role: "CEO, Friends of Women's World Banking (FWWB)", image: '/images/ssbhat.jpg' },
+    { name: 'Moutushi Sengupta', role: 'Chief of Capital Mobilization, AVPN; Former Director, India at MacArthur Foundation', image: '/images/motushi.jpg' },
+    { name: 'Hari Krishna N', role: 'Senior Advisor - Resilience, Climate Change, Anticipatory Action and HDP Nexus, World Food Programme', image: '/images/hari.jpg' },
+    { name: 'Gayathri Vasudevan', role: 'Chairperson, LabourNet Services', image: '/images/gayatri.jpg' },
+    { name: 'Dr Neeta Rao', role: 'Senior Health Lead, USAID, India', image: '/images/Dr-Neeta-Rao.jpeg' },
     // Add more team members as needed
   ];
   return (
@@ -59,7 +60,7 @@ function Ourvision() {
               countries in social and economic development, including
               humanitarian emergencies.
             </p>
-            <div class="row">
+            <div className="row">
   <div className="col-sm-6 col-lg-4 col-xs-12 col-md-6 mt-3">
     <div className="card card_missoin">
       <div className="card-body">
@@ -71,8 +72,8 @@ function Ourvision() {
     </div>
   </div>
   <div className="col-sm-6 col-lg-4 col-xs-12 col-md-6 mt-3">
-    <div class="card card_missoin">
-      <div class="card-body">
+    <div className="card card_missoin">
+      <div className="card-body">
       <Card.Img variant="top" src="/images/Group-115.svg"  width="40px" height="44px"/>
       <Card.Text className="p-card fs-5">
                 Augment collaboration and connections, within the larger network, at multiple levels
@@ -81,8 +82,8 @@ function Ourvision() {
     </div>
   </div>
   <div className="col-sm-6 col-lg-4 col-xs-12 col-md-6 mt-3">
-    <div class="card card_missoin">
-      <div class="card-body">
+    <div className="card card_missoin">
+      <div className="card-body">
       <Card.Img variant="top" src="/images/speedometer.svg" width="40px" height="44px"/>
       <Card.Text className="p-card fs-5">
                 Accelerate transformative impact in keeping with the changing needs within vulnerable communities

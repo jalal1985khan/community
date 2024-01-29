@@ -47,8 +47,8 @@ function Aboutshilp() {
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 col-xs-6 col-sm-6">
-                <div class="card shilp-card">
-                  <div class="card-body">
+                <div className="card shilp-card">
+                  <div className="card-body">
                     <Card.Img
                       variant="top"
                       src="/images/Group.svg"
@@ -64,8 +64,8 @@ function Aboutshilp() {
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 col-xs-6 col-sm-6">
-                <div class="card shilp-card">
-                  <div class="card-body">
+                <div className="card shilp-card">
+                  <div className="card-body">
                     <Card.Img
                       variant="top"
                       src="/images/pie.svg"
