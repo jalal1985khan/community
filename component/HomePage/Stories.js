@@ -103,7 +103,7 @@ function HeroBanner() {
                               </div>
                               <div class="col-md-7">
                                 <div class="card-body">
-                                <h5 class="card-title fs-6" dangerouslySetInnerHTML={{ __html: posts['title']['rendered'] }}/>
+                                      <Link href={`/${posts['slug']}`} className="text-decoration-none text-black"><h5 class="card-title fs-6" dangerouslySetInnerHTML={{ __html: posts['title']['rendered'] }}/></Link> 
                                 </div>
                               </div>
                             </div>

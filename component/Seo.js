@@ -1,9 +1,10 @@
 import React from 'react';
+import Head from 'next/head';
 
 function NextSeo({ title, description, path, metaImage }) {
     return (
         <>
-            <head>
+            <Head>
                 <meta charSet="utf-8" />
                 <title>{title}</title>
                 <meta name="description" content={description} />
@@ -19,9 +20,7 @@ function NextSeo({ title, description, path, metaImage }) {
                 <meta property="og:site_name" content={title} />
                 <meta property="og:image" content={metaImage} />
                 <meta name="twitter:card" content="summary_large_image" />
-            </head>
-
-            <script type="application/ld+json">
+                <script type="application/ld+json">
                 {JSON.stringify({
                     "@context": "https://schema.org/",
                     "@type": "WebSite",
@@ -34,6 +33,9 @@ function NextSeo({ title, description, path, metaImage }) {
                     }
                 })}
             </script>
+            </Head>
+
+           
         </>
     )
 }
