@@ -1274,6 +1274,13 @@ label.label-style {
 
 
 @media  (max-width: 600px){
+  .prev-arrow {
+    left: -8px;
+    z-index: 9;
+}
+.next-arrow {
+  right: -16px;
+}
   .invest-border{
     width: 100%;
   }
