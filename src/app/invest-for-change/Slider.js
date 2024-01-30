@@ -5,6 +5,8 @@ import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'next/image'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const MyComponent = () => {
     const [fundTab, setFundTab] = useState(true);

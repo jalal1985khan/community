@@ -6,6 +6,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body >{children}
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></Script>
       <link rel="icon" href="/images/cac_favicon-150x150.png" />
        {/* Start Google Analytics Manager */}
        <Script
