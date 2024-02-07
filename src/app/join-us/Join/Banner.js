@@ -14,7 +14,7 @@ style={{
         <Container style={{height:'500'}}>
         <Row className='' fluid>
           <Col lg={6} className='d-flex align-items-center'>
-            <p className='p-about'>If you are about empowering vulnerable communities to build resilience to bounce forward in any humanitarian crisis, Join us!</p>
+            <p className='p-about fs-5'>If you are about empowering vulnerable communities to build resilience to bounce forward in any humanitarian crisis, Join us!</p>
           </Col>
           </Row>
           </Container>

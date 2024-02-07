@@ -4,7 +4,7 @@ import Script from 'next/script';
 function NextSeo({ title, description, path, metaImage }) {
     return (
         <>
-            <Head>
+            <head>
                 <meta charSet="utf-8" />
                 <title>{title}</title>
                 <meta name="description" content={description} />
@@ -20,7 +20,7 @@ function NextSeo({ title, description, path, metaImage }) {
                 <meta property="og:site_name" content={title} />
                 <meta property="og:image" content={metaImage} />
                 <meta name="twitter:card" content="summary_large_image" />
-                <script type="application/ld+json">
+                <Script type="application/ld+json">
                 {JSON.stringify({
                     "@context": "https://schema.org/",
                     "@type": "WebSite",
@@ -32,9 +32,9 @@ function NextSeo({ title, description, path, metaImage }) {
                         "query-input": "required name=search_term_string"
                     }
                 })}
-                </script>
+                </Script>
                 <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></Script>
-            </Head>
+            </head>
 
            
         </>

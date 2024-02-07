@@ -6,7 +6,7 @@ import Image from 'next/image'
 function Banner() {
   return (
     <>
-      <Container className='banner-bg d-flex align-items-center' fluid style={{
+<Container className='banner-bg d-flex align-items-center' fluid style={{
   backgroundImage: 'linear-gradient(45deg, #1C7C9C, #1C7C9C2B), url(/images/about_banner_1.jpeg)'
 }}>
         <Container style={{height:'500'}}>

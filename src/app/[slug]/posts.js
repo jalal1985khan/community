@@ -10,6 +10,8 @@ import { FaTelegram, FaTwitter, FaLinkedin,
   FaWhatsapp } from 'react-icons/fa';
 import configData from "../../../config.json";
 import Seo from '../../../component/Seo'
+import PageNotFound from '../../../component/pageNotFound'
+
 
 
 
@@ -22,6 +24,7 @@ const formatDate = (date) => {
 
 const Posts = ({ slug }) => {
   const [data, setData] = useState([]);
+  const [notFound, setNotFound] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -33,7 +36,13 @@ const Posts = ({ slug }) => {
           throw new Error(`Failed to fetch data. Status: ${res.status}`);
         }
         const result = await res.json();
-        setData(result);
+        if (!result || result.length === 0) {
+          setNotFound(true)
+        }
+        else {
+          setData(result)
+        }
+        
         //console.log(result);
       } catch (error) {
         console.error("Error fetching data:", error.message);
@@ -48,6 +57,12 @@ const Posts = ({ slug }) => {
     const doc = new DOMParser().parseFromString(html, "text/html");
     return doc.body.textContent || "";
   };
+
+  if (notFound) {
+    return (
+<PageNotFound/>
+  )
+}
 
   return (
     <>
@@ -107,6 +122,9 @@ const Posts = ({ slug }) => {
       <Footer />
     </>
   );
+
+
+
 };
 
 export default Posts;
